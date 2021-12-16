@@ -427,7 +427,7 @@ function Component_type(props) {
 										<Carousel.Item key={indexImage}>
 											<img
 												className="d-block w-100"
-												src={`https://do-an-tot-nghiep-98.herokuapp.com/images/${l}`}
+												src={`https://nhatdoan.herokuapp.com/images/${l}`}
 												alt=""
 											/>
 										</Carousel.Item>

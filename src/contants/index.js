@@ -23,7 +23,7 @@ import NotFound from './../component/Page/notFound/index';
 // 	},
 //   ];
 
-export const API_ENPOINT = 'https://do-an-tot-nghiep-98.herokuapp.com';
+export const API_ENPOINT = 'https://nhatdoan.herokuapp.com';
 export const ROUTESLG = [
 	{
 		path: '/dangnhap',

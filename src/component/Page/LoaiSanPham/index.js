@@ -185,7 +185,7 @@ function LoaiSanPham(props) {
 											</td>
 											<td>
 												<img
-													src={`https://do-an-tot-nghiep-98.herokuapp.com/images/${post.hinh_anh}`}
+													src={`https://nhatdoan.herokuapp.com/images/${post.hinh_anh}`}
 													alt=""
 												/>
 											</td>

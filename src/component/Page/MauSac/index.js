@@ -144,7 +144,7 @@ function MauSac(props) {
 											<td>{post.ten_mau_sac}</td>
 											<td>
 												<img
-													src={`https://do-an-tot-nghiep-98.herokuapp.com/images/${post.hinh_anh}`}
+													src={`https://nhatdoan.herokuapp.com/images/${post.hinh_anh}`}
 												></img>
 											</td>
 											<td className="Controls_type">

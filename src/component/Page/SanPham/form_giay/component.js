@@ -749,7 +749,7 @@ function Component_type(props) {
 						// let check = checkedMS(l);
 						return (
 							<div key={l.id} className="select-mausac">
-								<img src={`https://do-an-tot-nghiep-98.herokuapp.com/images/${l.hinh_anh}`} alt="" />
+								<img src={`https://nhatdoan.herokuapp.com/images/${l.hinh_anh}`} alt="" />
 								<div className="title-mausacs">{l.ten_mau_sac}</div>
 								<input type="checkbox" data-id={index} onClick={handleCheckboxChanges} />
 							</div>
@@ -912,7 +912,7 @@ function Component_type(props) {
 											return (
 												<div key={l.id} className="select-mausac">
 													<img
-														src={`https://do-an-tot-nghiep-98.herokuapp.com/images/${l.hinh_anh}`}
+														src={`https://nhatdoan.herokuapp.com/images/${l.hinh_anh}`}
 														alt=""
 													/>
 													<div className="title-mausacs">{l.ten_mau_sac}</div>
@@ -1087,7 +1087,7 @@ function Component_type(props) {
 																				<Carousel.Item key={indexImage}>
 																					<img
 																						className="d-block w-100"
-																						src={`https://do-an-tot-nghiep-98.herokuapp.com/images/${l}`}
+																						src={`https://nhatdoan.herokuapp.com/images/${l}`}
 																						alt=""
 																					/>
 																				</Carousel.Item>
@@ -1095,9 +1095,7 @@ function Component_type(props) {
 																		}
 																	)}
 																</Carousel>
-																// <img
-																// 	src={`https://do-an-tot-nghiep-98.herokuapp.com/images/${data.hinh_anh}`}
-																// ></img>
+																
 															)}
 														</div>
 														{/* {errors.hinh_anh && <p className="error"> {errors.hinh_anh} </p>} */}
@@ -1220,7 +1218,7 @@ function Component_type(props) {
 																				<Carousel.Item key={indexImage}>
 																					<img
 																						className="d-block w-100"
-																						src={`https://do-an-tot-nghiep-98.herokuapp.com/images/${l}`}
+																						src={`https://nhatdoan.herokuapp.com/images/${l}`}
 																						alt=""
 																					/>
 																				</Carousel.Item>

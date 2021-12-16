@@ -134,7 +134,7 @@ function Component_mau_sac(props) {
 						{!hinh_anh ? (
 							<i className="fas fa-cloud-upload-alt tm-upload-icon "></i>
 						) : (
-							<img src={`https://do-an-tot-nghiep-98.herokuapp.com/images/${data.hinh_anh}`}></img>
+							<img src={`https://nhatdoan.herokuapp.com/images/${data.hinh_anh}`}></img>
 						)}
 					</div>
 					{errors.hinh_anh && <p className="error">{errors.hinh_anh}</p>}

@@ -9,20 +9,10 @@ import FormGiay from "./component/Page/SanPham/form_giay/index";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import MessengerCustomerChat from 'react-messenger-customer-chat';
 import { Provider } from "react-redux";
-import { io } from "socket.io-client";
 import configstore from "./redux/configstore";
 const store = configstore();
 
 function App(props) {
-  // const [data, setData] = useState({});
-  // // useEffect(() => {
-  // //   setSocket(io);
-  // //   setData({ name: "bao" });
-  // // }, []);
-  useEffect(() => {
-    console.log(document.body);
-  }, [document.body]);
-
   function renderAdminRoute() {
     let xhtml = null;
     xhtml = contant.ROUTESS.map((route) => {

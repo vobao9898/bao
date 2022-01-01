@@ -8,7 +8,7 @@ import {
 } from "@material-ui/icons";
 import * as api from "./../../../api/thong_ke";
 
-function TrangChu(props) {
+function Thongke(props) {
   const [dataGiay, setDataGiay] = useState(0);
   const [dataLoaiGiay, setDataLoaiGiay] = useState(0);
   useEffect(() => {
@@ -98,4 +98,4 @@ function TrangChu(props) {
   );
 }
 
-export default TrangChu;
+export default Thongke;
